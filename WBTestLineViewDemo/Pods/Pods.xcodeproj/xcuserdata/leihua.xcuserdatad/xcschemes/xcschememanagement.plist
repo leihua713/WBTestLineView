@@ -14,25 +14,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>WBTestLineView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10526085D30A140919DFD390C5B39DEC</key>
+		<key>483B4069314102B9CA089E324F906045</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D37706747C00D15AF2EEF5A51FDF1ADA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F49EFFBE75788231E9BB8A7B0D125AC9</key>
+		<key>AB989C618CA26145EAC054E9D03B3334</key>
 		<dict>
 			<key>primary</key>
 			<true/>

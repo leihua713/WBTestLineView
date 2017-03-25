@@ -17,10 +17,11 @@
     "git": "https://github.com/leihua713/WBTestLineView.git",
     "tag": "0.0.1"
   },
-  "source_files": [
-    "Classes",
-    "Classes/WBTestLineView/*.{h,m}"
-  ],
+  "source_files": "Pod/Products/include/**",
+  "public_header_files": "Pod/Products/include/*.h",
+  "ios": {
+    "vendored_libraries": "Pod/Products/lib/WBTestLineView.framework"
+  },
   "frameworks": [
     "Foundation",
     "UIKit",
