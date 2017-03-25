@@ -7,9 +7,9 @@ s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
 s.author             = { "雷华" => "leihua@58.com" }
 s.ios.deployment_target = "8.0"
 s.source = { :git => "https://github.com/leihua713/WBTestLineView.git", :tag => "#{s.version}" }
-s.source_files  = 'Pod/Products/include/**'
-s.public_header_files = 'Pod/Products/include/*.h'
-s.ios.vendored_libraries = 'Pod/Products/lib/WBTestLineView.framework'
+preserve_paths  = 'Pod/Products/lib/WBTestLineView.framework'
+s.public_header_files = 'Pod/Products/lib/WBTestLineView.framework/Version/A/Headers/*.h'
+s.ios.vendored_frameworks = 'Pod/Products/lib/WBTestLineView.framework'
 s.frameworks = "Foundation", "UIKit", "CoreGraphics"
 end
 

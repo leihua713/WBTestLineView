@@ -20,7 +20,7 @@
   "source_files": "Pod/Products/include/**",
   "public_header_files": "Pod/Products/include/*.h",
   "ios": {
-    "vendored_libraries": "WBTestLineViewLib/ios/WBTestLineView.framework"
+    "vendored_libraries": "Pod/Products/lib/WBTestLineView.framework"
   },
   "frameworks": [
     "Foundation",
