@@ -1,0 +1,29 @@
+{
+  "name": "WBTestLineView",
+  "version": "0.0.1",
+  "summary": "A custom ChartLineView for iOS",
+  "homepage": "https://github.com/leihua713/WBTestLineView",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "雷华": "leihua@58.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/leihua713/WBTestLineView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/WBTestLineView/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics"
+  ]
+}

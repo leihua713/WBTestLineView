@@ -1,0 +1,6 @@
+framework module WBTestLineView {
+  umbrella header "WBTestLineView.h"
+
+  export *
+  module * { export * }
+}

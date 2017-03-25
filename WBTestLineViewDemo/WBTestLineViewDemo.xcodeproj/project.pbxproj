@@ -15,7 +15,7 @@
 		692BC2A81D3CD52700EC1795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692BC2A61D3CD52700EC1795 /* LaunchScreen.storyboard */; };
 		692BC2B31D3CD52800EC1795 /* WBTestLineViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 692BC2B21D3CD52800EC1795 /* WBTestLineViewDemoTests.m */; };
 		692BC2BE1D3CD52800EC1795 /* WBTestLineViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 692BC2BD1D3CD52800EC1795 /* WBTestLineViewDemoUITests.m */; };
-		692BC2CC1D3CD55100EC1795 /* WBTestLineView in Resources */ = {isa = PBXBuildFile; fileRef = 692BC2CB1D3CD55100EC1795 /* WBTestLineView */; };
+		A982315F5DF53ACCC259ED96 /* libPods-WBTestLineViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6682BBF252BC5B287EB18472 /* libPods-WBTestLineViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D86BE42BCC5C69B05B77F5 /* Pods-WBTestLineViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLineViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBTestLineViewDemo/Pods-WBTestLineViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6682BBF252BC5B287EB18472 /* libPods-WBTestLineViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WBTestLineViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		692BC2951D3CD52700EC1795 /* WBTestLineViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTestLineViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692BC2991D3CD52700EC1795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		692BC29B1D3CD52700EC1795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		692BC2B91D3CD52800EC1795 /* WBTestLineViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBTestLineViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		692BC2BD1D3CD52800EC1795 /* WBTestLineViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTestLineViewDemoUITests.m; sourceTree = "<group>"; };
 		692BC2BF1D3CD52800EC1795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		692BC2CB1D3CD55100EC1795 /* WBTestLineView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WBTestLineView; sourceTree = "<group>"; };
+		782C5DCB7B54D8B0039829CF /* Pods-WBTestLineViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLineViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBTestLineViewDemo/Pods-WBTestLineViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A982315F5DF53ACCC259ED96 /* libPods-WBTestLineViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544CF6D1B90C01445F59EFAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01D86BE42BCC5C69B05B77F5 /* Pods-WBTestLineViewDemo.debug.xcconfig */,
+				782C5DCB7B54D8B0039829CF /* Pods-WBTestLineViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		692BC28C1D3CD52700EC1795 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,8 @@
 				692BC2B11D3CD52800EC1795 /* WBTestLineViewDemoTests */,
 				692BC2BC1D3CD52800EC1795 /* WBTestLineViewDemoUITests */,
 				692BC2961D3CD52700EC1795 /* Products */,
+				544CF6D1B90C01445F59EFAA /* Pods */,
+				E77C43B0BFC5A2C25C9C17F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +117,6 @@
 		692BC2971D3CD52700EC1795 /* WBTestLineViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				692BC2CB1D3CD55100EC1795 /* WBTestLineView */,
 				692BC29B1D3CD52700EC1795 /* AppDelegate.h */,
 				692BC29C1D3CD52700EC1795 /* AppDelegate.m */,
 				692BC29E1D3CD52700EC1795 /* ViewController.h */,
@@ -143,6 +156,14 @@
 			path = WBTestLineViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		E77C43B0BFC5A2C25C9C17F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6682BBF252BC5B287EB18472 /* libPods-WBTestLineViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 692BC2C21D3CD52800EC1795 /* Build configuration list for PBXNativeTarget "WBTestLineViewDemo" */;
 			buildPhases = (
+				176AFD912BFE20EED7C21580 /* [CP] Check Pods Manifest.lock */,
 				692BC2911D3CD52700EC1795 /* Sources */,
 				692BC2921D3CD52700EC1795 /* Frameworks */,
 				692BC2931D3CD52700EC1795 /* Resources */,
+				EB4750A7F74566F0B05FBEAA /* [CP] Embed Pods Frameworks */,
+				8220718716F50BAB56D2133F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +272,6 @@
 			files = (
 				692BC2A81D3CD52700EC1795 /* LaunchScreen.storyboard in Resources */,
 				692BC2A51D3CD52700EC1795 /* Assets.xcassets in Resources */,
-				692BC2CC1D3CD55100EC1795 /* WBTestLineView in Resources */,
 				692BC2A31D3CD52700EC1795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176AFD912BFE20EED7C21580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8220718716F50BAB56D2133F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBTestLineViewDemo/Pods-WBTestLineViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4750A7F74566F0B05FBEAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBTestLineViewDemo/Pods-WBTestLineViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		692BC2911D3CD52700EC1795 /* Sources */ = {
@@ -413,6 +484,7 @@
 		};
 		692BC2C31D3CD52800EC1795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D86BE42BCC5C69B05B77F5 /* Pods-WBTestLineViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WBTestLineViewDemo/Info.plist;
@@ -424,6 +496,7 @@
 		};
 		692BC2C41D3CD52800EC1795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782C5DCB7B54D8B0039829CF /* Pods-WBTestLineViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WBTestLineViewDemo/Info.plist;
@@ -500,6 +573,7 @@
 				692BC2C41D3CD52800EC1795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		692BC2C51D3CD52800EC1795 /* Build configuration list for PBXNativeTarget "WBTestLineViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +582,7 @@
 				692BC2C71D3CD52800EC1795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		692BC2C81D3CD52800EC1795 /* Build configuration list for PBXNativeTarget "WBTestLineViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +591,7 @@
 				692BC2CA1D3CD52800EC1795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

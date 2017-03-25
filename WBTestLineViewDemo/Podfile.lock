@@ -1,0 +1,25 @@
+PODS:
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - WBTestLineView (0.0.1)
+
+DEPENDENCIES:
+  - ReactiveCocoa (~> 2.4.7)
+  - WBTestLineView (from `../`)
+
+EXTERNAL SOURCES:
+  WBTestLineView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  WBTestLineView: f9996075727f6793fc0eda3c7c166d6de3f1b5f7
+
+PODFILE CHECKSUM: e0e9095331edd1d17fa1772227ece47735bd7e36
+
+COCOAPODS: 1.2.0
